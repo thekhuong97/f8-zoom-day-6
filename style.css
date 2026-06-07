@@ -217,6 +217,12 @@ body {
 }
 
 /*---------- PRICING ----------*/
+.pricing-card-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
 .pricing-section {
     background-color: #fff;
 }
@@ -249,8 +255,7 @@ body {
 }
 
 .pricing-card {
-    display: inline-block;
-    width: 32%;
+    flex: 1 1 33.33%;
     margin-top: 50px;
     border-radius: 20px;
     background-color: #f6fcff;
@@ -266,11 +271,10 @@ body {
     box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.3);
 }
 
-.pricing-card ~ .pricing-card {
-    margin-left: 20px;
-}
-
 .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 30px 16px;
 }
 
