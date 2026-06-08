@@ -353,7 +353,7 @@ body {
 }
 
 .product-container {
-    width: 900px;
+    max-width: 900px;
 }
 
 .product-list {
@@ -426,4 +426,98 @@ body {
     background-color: #ee4d2d;
     cursor: pointer;
     white-space: nowrap;
+}
+
+/*---------- REGISTER ----------*/
+.register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    padding: 12px;
+    background-color: #efd5ff;
+    background-image: linear-gradient(135deg, #9ac4fc 0%, #efd5ff 100%);
+}
+
+.register-container {
+    width: 100%;
+    max-width: 1024px;
+    border-radius: 24px;
+    background-color: #fff;
+}
+.register-flex {
+    display: flex;
+}
+
+.register-image {
+    flex: 1 1 50%;
+    max-width: 50%;
+}
+
+.register-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px 0 0 24px;
+}
+
+.register-form {
+    flex: 1 1 50%;
+    max-width: 50%;
+    padding: 40px 30px;
+}
+
+.form-heading {
+    font-size: 2.8rem;
+}
+
+form {
+    margin-top: 16px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.8rem;
+}
+
+.form-group input {
+    width: 100%;
+    margin-top: 6px;
+    padding: 8px 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-term {
+    margin-top: 20px;
+}
+
+.term-of-service {
+    margin-left: 6px;
+}
+
+.term-of-service a {
+    font-weight: 500;
+}
+
+.form-submit {
+    margin-top: 20px;
+}
+
+.submit-btn {
+    padding: 8px 32px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #3c63cb;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
 }

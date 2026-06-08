@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register Layout</title>
+        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <main class="register-wrapper">
+            <div class="register-container">
+                <div class="register-flex">
+                    <div class="register-image">
+                        <img
+                            src="./assets/images/img-register.jpg"
+                            alt="Ảnh đầu đĩa than"
+                            width="640"
+                            height="960"
+                        />
+                    </div>
+                    <div class="register-form">
+                        <h1 class="form-heading">Registration Form</h1>
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="fullname">Full Name:</label>
+                                <input
+                                    id="fullname"
+                                    name="fullname"
+                                    type="text"
+                                    placeholder="ex: Lindsey Wilson"
+                                    autocomplete="name"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email:</label>
+                                <input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    autocomplete="email"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password:</label>
+                                <input
+                                    id="password"
+                                    name="password"
+                                    type="password"
+                                    autocomplete="new-password"
+                                    required
+                                />
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password"
+                                    >Confirm Password:</label
+                                >
+                                <input
+                                    id="confirm-password"
+                                    name="confirm-password"
+                                    type="password"
+                                    autocomplete="new-password"
+                                    required
+                                />
+                            </div>
+                            <div class="form-term">
+                                <input
+                                    id="term-of-service"
+                                    name="term-of-service"
+                                    type="checkbox"
+                                    required
+                                />
+                                <label
+                                    for="term-of-service"
+                                    class="term-of-service"
+                                    >By signing up, you agree to the
+                                    <a href="#!" target="_blank"
+                                        >Play Term of Service</a
+                                    ></label
+                                >
+                            </div>
+                            <div class="form-submit">
+                                <button type="submit" class="submit-btn">
+                                    Register
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
