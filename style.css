@@ -34,6 +34,14 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+}
+
 /* ---------- CV ---------- */
 .wrapper {
     padding-inline: 1.6rem;
