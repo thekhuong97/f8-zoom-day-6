@@ -521,3 +521,32 @@ form {
 .submit-btn:hover {
     opacity: 0.9;
 }
+
+/*---------- FROGGY ----------*/
+.wrapper-froggy {
+    min-height: 100dvh;
+    background-color: #efd5ff;
+    background-image: linear-gradient(135deg, #9ac4fc 0%, #efd5ff 100%);
+}
+
+.froggy-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding: 30px 12px;
+}
+
+.froggy-container img {
+    width: 100%;
+    height: auto;
+}
+
+.froggy-container figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-style: italic;
+}
+
+figure + figure {
+    margin-top: 30px;
+}
