@@ -547,6 +547,9 @@ form {
 .froggy-container img {
     width: 100%;
     height: auto;
+
+    /* Màu nền dịu nhẹ (Skeleton/Placeholder) trong lúc chờ ảnh lazyload và async decode */
+    background-color: #f0f0f0;
 }
 
 .froggy-container figcaption {
